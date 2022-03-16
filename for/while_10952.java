@@ -1,21 +1,26 @@
 import java.util.*;
-import java.io.*;
+
 
 public class while_10952 {
-    public static void main(String[]args){
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int a=1;
-        StreamTokenizer st;
-        // while(st!=0){
-        //      st = new StringTokenizer(br.readLine()," ");
+    public static void main(String[]args) {
+     
+        Scanner scanner = new Scanner(System.in);
 
-
-
+        
+        int b,c;
+        while(scanner.hasNextInt()){
+            // 입력을 기다리다가 입력이 생기면 while 실행
+             b = scanner.nextInt();
+            c = scanner.nextInt();
+         
+            System.out.println(b+c);
         }
 
 
 
+
+        scanner.close();
+
     }
-    
+}
 

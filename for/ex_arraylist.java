@@ -25,7 +25,7 @@ public static void main(String[] args) {
        for( Integer i : arraylist){
            System.out.print(i+" ");
        }
-
+scanner.close();
     }
 }
 
