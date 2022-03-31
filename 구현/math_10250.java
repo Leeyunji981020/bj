@@ -51,6 +51,7 @@ public class math_10250 {
                 }
 
             }
+            System.out.println(room);
             //int A = (where/floor)+1;
            // int B = where%floor;
 
